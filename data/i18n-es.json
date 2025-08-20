@@ -1,0 +1,27 @@
+{
+  "site": {
+    "title_home": "Three Pillars | Inicio",
+    "title_contact": "Three Pillars | Contacto"
+  },
+  "nav": {
+    "home": "Inicio",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title": "Los Pilares de la Creación",
+    "what_title": "¿Qué estás viendo?",
+    "what_body": "Imagen del Hubble de la Nebulosa del Águila (M16), conocida como <strong>“Los Pilares de la Creación”</strong>. Estos zarcillos de polvo y gas forman parte de una región activa de formación estelar y ocultan estrellas recién nacidas. Los colores representan elementos: azul (oxígeno), rojo (azufre) y verde (nitrógeno + hidrógeno). Con unos <strong>4–5 años luz</strong> de largo dentro de una nebulosa de <strong>70 × 55 años luz</strong>, se encuentra a <strong>7000 años luz</strong> en la constelación de la Serpiente.",
+    "credits": "Créditos: NASA, ESA y Hubble Heritage Team (STScI/AURA)."
+  },
+  "contact": {
+    "about_title": "Sobre el proyecto",
+    "about_body": "Tres amigos, un lienzo infinito. Nuestro proyecto en wplace es un mural digital de más de 250,000 píxeles, donde damos forma a los Pilares de la Creación. No buscamos solo pintar, sino dejar un granito de arena en este cosmos digital, uniendo ambición, arte y comunidad.",
+    "contacts_title": "Contactos",
+    "contacts_lead": "Instagram y Discord"
+  },
+  "toast": {
+    "copied": "Copiado al portapapeles",
+    "discord_copied": "Usuario de Discord copiado",
+    "error": "No se pudo copiar"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "site": {
+    "title_home": "Three Pillars | Home",
+    "title_contact": "Three Pillars | Contact"
+  },
+  "nav": {
+    "home": "Home",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "The Pillars of Creation",
+    "what_title": "What are you seeing?",
+    "what_body": "Hubble image of the Eagle Nebula (M16), known as the <strong>“Pillars of Creation”</strong>. These tendrils of dust and gas are part of an active star-forming region and hide newborn stars. The colors map elements: blue (oxygen), red (sulfur) and green (nitrogen + hydrogen). Spanning <strong>4–5 light-years</strong> within a <strong>70 × 55 light-years</strong> nebula, it lies about <strong>7000 light-years</strong> away in the constellation Serpens.",
+    "credits": "Credits: NASA, ESA and the Hubble Heritage Team (STScI/AURA)."
+  },
+  "contact": {
+    "about_title": "About the project",
+    "about_body": "Three friends, one infinite canvas. Our wplace project is a digital mural of over 250,000 pixels where we shape the Pillars of Creation. We’re not just painting, we’re leaving a grain of stardust in this digital cosmos, uniting ambition, art, and community.",
+    "contacts_title": "Contacts",
+    "contacts_lead": "Instagram and Discord"
+  },
+  "toast": {
+    "copied": "Copied to clipboard",
+    "discord_copied": "Discord user copied",
+    "error": "Couldn’t copy"
+  }
+}

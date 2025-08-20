@@ -1,0 +1,9 @@
+[
+  { "type": "instagram", "user": "iangov2", "name": "Ian García",   "label": "Fundador" },
+  { "type": "instagram", "user": "juan_.d8", "name": "Juanda González",  "label": "Fundador" },
+  { "type": "instagram", "user": "jose_gonzalez847", "name": "José González", "label": "Fundador"  },
+
+  { "type": "discord",   "user": "callmepoollo",  "name": "Ian García",  "label": "Fundador"},
+  { "type": "discord",   "user": "mr_shadee",      "name": "Juanda González", "label": "Fundador" },
+  { "type": "discord",   "user": "jose_gr",     "name": "José González", "label": "Fundador"}
+]
