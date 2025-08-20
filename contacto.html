@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="page-contact">
+  <!-- fondo: solo estrellas -->
   <canvas id="stars" class="stars"></canvas>
 
   <header class="site-header">
@@ -16,36 +17,43 @@
       <img src="assets/logo.svg" alt="Logo" class="brand-icon">
       <h1>Three Pillars</h1>
     </a>
-    <nav class="nav">
+
+    <!-- Botón menú (móvil) -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-controls="siteNav" aria-expanded="false">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+
+    <!-- Nav con ID requerido por app.js -->
+    <nav class="nav" id="siteNav" role="navigation">
       <a rel="prefetch" href="index.html" data-i18n="nav.home">Inicio</a>
-      <a class="active" rel="prefetch" href="contacto.html" data-i18n="nav.contact">Contacto</a>
+      <a rel="prefetch" class="active" href="contacto.html" data-i18n="nav.contact">Contacto</a>
     </nav>
-<!-- Selector de idioma -->
-<div class="lang fancy-lang" id="lang">
-  <!-- nativo escondido (lo usa i18n.js) -->
-  <select id="langSwitcher" aria-hidden="true" tabindex="-1">
-    <option value="es">ES · Español</option>
-    <option value="en">EN · English</option>
-  </select>
 
-  <!-- UI custom -->
-  <button class="lang-btn" id="langTrigger" type="button" aria-haspopup="listbox" aria-expanded="false">
-    <span class="lang-current">ES</span>
-    <svg class="caret" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
-      <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-    </svg>
-  </button>
+    <!-- Selector de idioma -->
+    <div class="lang fancy-lang" id="lang">
+      <!-- nativo oculto (lo usa i18n.js) -->
+      <select id="langSwitcher" aria-hidden="true" tabindex="-1">
+        <option value="es">ES · Español</option>
+        <option value="en">EN · English</option>
+      </select>
 
-  <ul class="lang-menu" role="listbox">
-    <li role="option" data-value="es" class="active">
-      <span class="tag">ES</span><span>Español</span>
-    </li>
-    <li role="option" data-value="en">
-      <span class="tag">EN</span><span>English</span>
-    </li>
-  </ul>
-</div>
+      <!-- UI custom -->
+      <button class="lang-btn" id="langTrigger" type="button" aria-haspopup="listbox" aria-expanded="false">
+        <span class="lang-current">ES</span>
+        <svg class="caret" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+          <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+      </button>
 
+      <ul class="lang-menu" role="listbox">
+        <li role="option" data-value="es" class="active">
+          <span class="tag">ES</span><span>Español</span>
+        </li>
+        <li role="option" data-value="en">
+          <span class="tag">EN</span><span>English</span>
+        </li>
+      </ul>
+    </div>
   </header>
 
   <main class="container">
@@ -60,6 +68,7 @@
       <h2 class="subtitle" data-i18n="contact.contacts_title">Contactos</h2>
       <p class="lead" data-i18n="contact.contacts_lead">Instagram y Discord</p>
 
+      <!-- Render dinámico de tarjetas -->
       <div id="contactCards" class="cards cards-contacts"></div>
     </section>
   </main>
@@ -68,10 +77,10 @@
     <small>© <span id="year"></span> Three Pillars.</small>
   </footer>
 
+  <!-- scripts -->
   <script src="js/i18n.js"></script>
   <script src="js/app.js"></script>
   <script src="js/contact.js"></script>
   <script src="js/lang-ui.js"></script>
-
 </body>
 </html>

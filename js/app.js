@@ -188,7 +188,7 @@ function draw() {
 requestAnimationFrame(draw);
 
 
-// --- Mobile menu toggle ---
+// Mobile menu toggle
 (() => {
   const btn = document.getElementById('menuToggle');
   const nav = document.getElementById('siteNav');
@@ -211,4 +211,5 @@ requestAnimationFrame(draw);
     if (window.innerWidth > 720) close();
   });
 })();
+
 
